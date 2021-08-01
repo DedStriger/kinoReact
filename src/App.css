@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.slider{
+  max-height: 100vh;
+}
+
+.tabsImg{
+  max-height: 700px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.tabsContainer{
+  margin-top: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +41,8 @@
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
